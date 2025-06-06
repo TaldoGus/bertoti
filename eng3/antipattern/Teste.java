@@ -1,7 +1,7 @@
-public class Teste {
+public class teste {
     public static void main(String[] args) {
-        Cachorro obj1 = new Cachorro("Bidu", "Labrador");
-        Gato obj2 = new Gato("Garfield", "SRD");
+        Cao obj1 = new Cao("Barley", "vira-lata");
+        Gato obj2 = new Gato("Mel", "Persa");
 
         obj1.andar();
         obj2.comer();

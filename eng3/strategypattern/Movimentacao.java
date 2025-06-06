@@ -1,3 +1,4 @@
-public class Movimentacao {
+public interface Movimentacao{
+
     public abstract void mover();
 }

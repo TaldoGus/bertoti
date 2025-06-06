@@ -1,7 +1,11 @@
-package estruturaMVC;
+package MVC;
+
 
 import java.util.ArrayList;
 import java.util.List;
+
+
+
 
 public class ShapeModel implements Subject{
 
@@ -34,3 +38,4 @@ public class ShapeModel implements Subject{
     }
 
 }
+

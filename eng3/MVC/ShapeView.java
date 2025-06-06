@@ -1,4 +1,4 @@
-package estruturaMVC;
+package MVC;
 
 public class ShapeView implements Observer {
 
@@ -15,3 +15,4 @@ public class ShapeView implements Observer {
         model.drawShapes();
     }
 }
+

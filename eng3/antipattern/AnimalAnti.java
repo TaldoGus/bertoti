@@ -1,4 +1,4 @@
-public class Animal {
+public class AnimalAnti {
     
     public void voar(){
         

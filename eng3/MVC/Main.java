@@ -1,10 +1,11 @@
-package estruturaMVC;
+package MVC;
+
 
 public class Main {
-    public static void main(String[] argumentos) {
-        ModeloForma modelo = new ModeloForma();
-        VisaoForma visao = new VisaoForma(modelo);
+    public static void main(String[] args) {
+        ShapeModel model = new ShapeModel();
+        ShapeView view = new ShapeView(model);
 
-        modelo.atualizarEstado();  // Notifica a visão sobre a alteração
+        model.changeState();  // Dispara notificação para a view
     }
 }

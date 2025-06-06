@@ -70,8 +70,8 @@ public class Main{
         agency.addObserver(channel1);
         agency.addObserver(channel2);
 
-        agency.setNews("Gol do Corinthians!");
-        agency.setNews("PSG faz história e conquista Champions 2025!");
+        agency.setNews("Sai a escalação de Carlos Ancelotti!");
+        agency.setNews("Neymar está lesionado novamente!");
 
     }
 }
