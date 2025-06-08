@@ -5,11 +5,11 @@ public class teste {
     public static void main(String[] args) {
 
         
-        Animal baleia = new Animal("Baleia");
+        Animal gaviao = new Animal("Gavião");
 
-        baleia.setMovimento(new Nadar());
+        gaviao.setMovimento(new Voar());
 
-        baleia.mover();
+        gaviao.mover();
     
     }
 

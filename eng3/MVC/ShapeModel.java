@@ -16,7 +16,7 @@ public class ShapeModel implements Subject{
     }
 
     public void changeState(){
-        System.out.println("O estado do modelo foi alterado!");
+        System.out.println("Estado do modeloalterado com sucesso!");
         notifyObservers();
     }
 

@@ -54,7 +54,7 @@ class NewsChannel implements Observer {
     @Override
     public void update(String news) {
         this.news = news;
-        System.out.println("Canal recebeu notícia " + news);
+        System.out.println("Urgente, " + news);
     }
 }
 
@@ -66,12 +66,14 @@ public class Main{
         NewsAgency agency  = new NewsAgency();
         NewsChannel channel1 = new NewsChannel();
         NewsChannel channel2 = new NewsChannel();  
-        
+        NewsChannel channel3 = new NewsChannel();          
         agency.addObserver(channel1);
         agency.addObserver(channel2);
+        agency.addObserver(channel3);
 
-        agency.setNews("Sai a escalação de Carlos Ancelotti!");
-        agency.setNews("Neymar está lesionado novamente!");
+        agency.setNews("Google Veo3 a mais nova tecnologia IA de criação de videos em 3D foi lançada!");
+        agency.setNews("Palmeiras ganha de 6x0 e Continua SEM MUNDIAL!");
+        agency.setNews("Portugal de CRL7 e Espanha de Lamine Yamal jogam dia 08/06/2024 ");
 
     }
 }

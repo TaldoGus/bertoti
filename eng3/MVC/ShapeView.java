@@ -11,7 +11,7 @@ public class ShapeView implements Observer {
 
     @Override
     public void update(){
-        System.out.println("Atualizando visualização...");
+        System.out.println("Visualização sendo atualizada...");
         model.drawShapes();
     }
 }
