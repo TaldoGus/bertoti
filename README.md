@@ -1,7 +1,7 @@
 # bertoti
 
 ### 📷 Diagrama de Strategy:
-![Diagrama Strategy](https://raw.githubusercontent.com/TaldoGus/bertoti/main/eng3/uml_pattern.png)
+![Diagrama Strategy](https://github.com/TaldoGus/bertoti/blob/main/eng3/uml_pattern%20(1).png)
 
 
 ### 📷 Diagrama de Herança:
